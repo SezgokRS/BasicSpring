@@ -4,3 +4,10 @@ CREATE TABLE IF NOT EXISTS UserModel(
     email varchar(250) NOT NULL,
     password varchar(250) NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS TextModel(
+    id INT NOT NULL,
+    header varchar(50) NOT NULL,
+    text varchar(250) NOT NULL,
+    time_added TIMESTAMP NOT NULL
+);
